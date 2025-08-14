@@ -1,66 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Nossa Estufa - Início</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f8fff5;
-            color: #333;
-            text-align: center;
-        }
-        header {
-            background-color: #2e7d32;
-            color: white;
-            padding: 20px;
-        }
-        nav {
-            margin-top: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        main {
-            padding: 20px;
-        }
-        footer {
-            background-color: #1b5e20;
-            color: white;
-            padding: 15px;
-            font-size: 14px;
-        }
-        footer a {
-            color: #a5d6a7;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <!-- Link para CSS no mesmo diretório -->
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <header>
         <h1>Nossa Estufa</h1>
         <nav>
             <a href="index.html">Início</a>
-            <a href="fertil.html">Fértil</a>
-            <a href="pulverizacao.html">Pulverização</a>
+            <a href="adubos.html">Adubos</a>
             <a href="pragas.html">Pragas</a>
+            <a href="fungosebacterias.html">Fungos e Bactérias</a>
         </nav>
     </header>
     <main>
-        <h2>Bem-vindo à Nossa Estufa</h2>
-        <p>Aqui você encontra as melhores dicas para cuidar dos seus pimentões.</p>
+
+
+        <!----- PRAGAS ----->
+        <div class="post-card">
+            <a href="pragas.html">
+                <img src="https://i.ibb.co/bjbxGRrh/pragas.png" alt="pragas">
+            </a>
+
+            <div class="post-card-text">
+                <h3>PRAGAS</h3>
+            </div>
+        </div>
+        
+        <!----- ADUBOS ----->
+        <div class="post-card">
+            <a href="adubos.html">
+                <img src="https://i.ibb.co/3yP0tSKD/ADUBOS.png" alt="ADUBOS" border="0">
+            </a>
+
+            <div class="post-card-text">
+                <h3>ADUBOS</h3>
+            </div>
+        </div>
+
+
     </main>
     <footer>
         <a href="sobre.html">Sobre o site</a> |
@@ -68,4 +52,5 @@
         <p>&copy; 2025 Nossa Estufa - Todos os direitos reservados</p>
     </footer>
 </body>
+
 </html>
