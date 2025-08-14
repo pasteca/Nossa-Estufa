@@ -265,7 +265,7 @@ strong {
 }
 
 /* Esconde o menu em telas menores que 768px */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     nav {
         display: none;
     }
