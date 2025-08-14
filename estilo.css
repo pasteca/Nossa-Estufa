@@ -263,3 +263,10 @@ strong {
     margin-left: 20px;
     /* identação das listas */
 }
+
+/* Esconde o menu em telas menores que 768px */
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+}
