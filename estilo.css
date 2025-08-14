@@ -64,7 +64,6 @@ footer a:hover {
 }
 
 /* CARD DE POSTAGEM */
-/* Estilo dos cards de pragas */
 .post-card {
     max-width: 900px;
     /* largura máxima do card */
@@ -179,6 +178,7 @@ footer a:hover {
     line-height: 1.5;
     margin-bottom: 15px;
 }
+
 strong {
     color: #1b5e20;
 }
