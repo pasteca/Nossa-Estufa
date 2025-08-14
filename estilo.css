@@ -22,7 +22,11 @@ header {
     background-color: #1b5e20;
     color: white;
     padding: 20px;
+    width: 900px;        /* largura fixa igual ao PC */
+    max-width: 900px;    /* impede que cresça além disso */
+    margin: 0 auto;      /* centraliza horizontalmente */
 }
+
 
 /* Navegação */
 nav {
@@ -51,6 +55,9 @@ footer {
     color: white;
     padding: 15px;
     font-size: 14px;
+    width: 900px;        /* largura fixa igual ao PC */
+    max-width: 900px;    /* impede que cresça além disso */
+    margin: 0 auto;      /* centraliza horizontalmente */
 }
 
 footer a {
@@ -63,14 +70,17 @@ footer a:hover {
     text-decoration: underline;
 }
 
-
-
-
 /* Forçar largura fixa e centralizar todos os containers principais */
-.post-card, .post-container, .yellow-box, .red-box {
-    width: 900px;       /* largura fixa igual ao PC */
-    max-width: 900px;   /* impede que cresça além disso */
-    margin: 20px auto;  /* centraliza horizontalmente */
+.post-card,
+.post-container,
+.yellow-box,
+.red-box {
+    width: 900px;
+    /* largura fixa igual ao PC */
+    max-width: 900px;
+    /* impede que cresça além disso */
+    margin: 20px auto;
+    /* centraliza horizontalmente */
 }
 
 /* CARD DE POSTAGEM */
@@ -130,7 +140,9 @@ footer a:hover {
     font-family: Arial, sans-serif;
 }
 
-.post-page h1, .post-page h2, .post-page h3 {
+.post-page h1,
+.post-page h2,
+.post-page h3 {
     color: #1b5e20;
     margin-top: 20px;
 }
@@ -164,6 +176,7 @@ footer a:hover {
     line-height: 1.5;
     margin-bottom: 15px;
 }
+
 strong {
     color: #1b5e20;
 }
