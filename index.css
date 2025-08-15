@@ -1,0 +1,108 @@
+/* Imagens padrão do site */
+.post-img {
+    display: block;
+    margin: auto;
+    padding: 1em 0;
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
+
+/* Corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #005024;
+    color: #333;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1b5e20;
+    color: white;
+    padding: 20px;
+}
+
+/* Navegação */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 20px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1b5e20;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #a5d6a7;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.post-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 900px;
+    margin: 15px auto;
+}
+
+.post-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+}
+
+.post-card-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 90%;
+    padding: 15px;
+}
+
+.post-card-text h3 {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+}
+
+/* Esconde o menu em telas de celular */
+@media (max-width: 768px) {
+    nav {
+        display: none !important;
+    }
+}
