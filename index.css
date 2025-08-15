@@ -100,7 +100,9 @@ footer a:hover {
     text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
 }
 
-
-
-
-
+/* Esconde o menu em telas de celular */
+@media (max-width: 768px) {
+    nav {
+        display: none !important;
+    }
+}
